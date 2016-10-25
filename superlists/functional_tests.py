@@ -7,10 +7,9 @@ class NewVisitorTest(unittest.TestCase):
     def setUp(self):
         self.browser = webdriver.Chrome()
         self.browser.implicitly_wait(3)
+
     def tearDown(self):
         self.browser.quit()
-
-
 
     def test_can_start_a_list_and_retrieve_it_later(self):
         # Sam heard about a new online to-do app. He logs on to checkout its homepage.
