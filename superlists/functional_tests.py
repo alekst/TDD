@@ -65,7 +65,7 @@ class NewVisitorTest(unittest.TestCase):
         # that he has generated a unique URL for him --- there is some explanatory text
         # to that effect.
 
-         self.fail("finish the test")
+        self.fail("finish the test")
 
         # He visits the URL -- his to-do list is still there
 
